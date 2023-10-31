@@ -53,7 +53,7 @@ Passos
 Clone este repositório:
 shell
 Copy code
-git clone https://github.com/seu-usuario/music-share.git
+git clone https://github.com/felipematheus1337/SoundShare.git
 cd music-share
 Configuração de Variáveis de Ambiente:
 
