@@ -1,8 +1,8 @@
 # MusicShare - Plataforma de Compartilhamento de Músicas em Tempo Real
-### Visão Geral
+## Visão Geral
 O MusicShare é uma plataforma de compartilhamento de músicas em tempo real que permite aos usuários compartilhar e ouvir músicas juntos, participar de chats temáticos de gênero musical e receber notificações em tempo real sobre novas músicas e atividades de amigos. Esta plataforma é construída com base em várias tecnologias modernas e conceitos de microsserviços.
 
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 Java: A linguagem de programação principal do lado do servidor, usando o framework Spring Boot.
 
 Angular: O framework de desenvolvimento front-end.
@@ -19,7 +19,7 @@ AWS S3: Armazenamento em nuvem para arquivos de mídia, como músicas.
 
 OAuth2: Para autenticação segura dos usuários.
 
-### Funcionalidades Principais
+## Funcionalidades Principais
 Compartilhamento de Músicas: Os usuários podem enviar suas músicas para a plataforma, que são armazenadas no AWS S3 e catalogadas no MongoDB.
 
 Chat em Tempo Real: Os usuários podem participar de chats com base em gênero musical, onde podem conversar e compartilhar músicas.
