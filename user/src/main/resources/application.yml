@@ -1,0 +1,5 @@
+
+
+rabbit:
+  queue:
+    upload: upload-musica

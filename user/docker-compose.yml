@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  mongodb:
+    image: mongo
+    container_name: userdb
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: user
+  rabbitmq:
+    image: rabbitmq:3.10-management
+    container_name: rabbitmq
+    ports:
+        - "5672:5672"
+        - "15672:15672"
